@@ -1,5 +1,5 @@
 def drawBoard(l, n):
-    if not l or len(l) != 9:
+    if len(l) != 9:
         print("Error! Board badly designed!")
     else:
         print("Turn number: ", n)
